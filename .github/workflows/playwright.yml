@@ -9,8 +9,8 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     env:
-      USERNAME: ${{ secrets.TEGB_USERNAME }}
-      PASSWORD: ${{ secrets.TEGB_PASSWORD }}
+      TEGB_USERNAME: ${{ secrets.TEGB_USERNAME }}
+      TEGB_PASSWORD: ${{ secrets.TEGB_PASSWORD }}
       BASE_URL: ${{ secrets.BASE_URL }}
     steps:
       - uses: actions/checkout@v4
