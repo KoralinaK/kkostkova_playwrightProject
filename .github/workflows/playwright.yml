@@ -30,7 +30,7 @@ jobs:
         if: ${{ !cancelled() }}
         with:
           name: playwright-snapshots
-          path: tests/**/__snapshots__/
+          path: tests/**/*-snapshots/
           retention-days: 7
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
