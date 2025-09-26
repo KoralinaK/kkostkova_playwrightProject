@@ -1,0 +1,40 @@
+{
+  "name": "kkostkova_playwrightProject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "ui": "playwright test --ui",
+    "test:chrome": "playwright test --project=chromium"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoralinaK/kkostkova_playwrightProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KoralinaK/kkostkova_playwrightProject/issues"
+  },
+  "homepage": "https://github.com/KoralinaK/kkostkova_playwrightProject#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "@faker-js/faker": "^9.9.0",
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.1.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-playwright": "^2.2.2",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.39.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.18",
+    "dotenv": "^17.2.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "description": ""
+}
