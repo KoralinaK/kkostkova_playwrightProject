@@ -139,12 +139,16 @@ export class DashboardPage {
   ): Promise<this> {
     await this.nameInput.click({ clickCount: 3 });
     await this.nameInput.fill(firstname);
+    await this.page.keyboard.press("Enter");
     await this.surnameInput.click({ clickCount: 3 });
     await this.surnameInput.fill(surname);
+    await this.page.keyboard.press("Enter");
     await this.emailInput.click({ clickCount: 3 });
     await this.emailInput.fill(email);
+    await this.page.keyboard.press("Enter");
     await this.phoneInput.click({ clickCount: 3 });
     await this.phoneInput.fill(phone);
+    await this.page.keyboard.press("Enter");
     await this.ageInput.click({ clickCount: 3 });
     await this.ageInput.fill(age);
     await this.page.waitForTimeout(500);
